@@ -1,0 +1,6 @@
+{
+  "name": "Enigma at Palazzo Versace Dubai",
+  "description": "Modern multi-page luxury redesign for Enigma Persian fine dining at Palazzo Versace Dubai featuring Taste of Persia, Golden Journey, and Moroccan Pop-Up.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

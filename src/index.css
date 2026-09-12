@@ -1,0 +1,56 @@
+@import "tailwindcss";
+
+:root {
+  --color-bg-base: #09090b;
+  --color-bg-surface: #121216;
+  --color-bg-elevated: #1a1a20;
+  --color-gold: #c8aa76;
+  --color-gold-light: #dfcaa2;
+  --color-ivory: #ede8df;
+  --color-muted: #9b9890;
+}
+
+body {
+  font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+  background-color: var(--color-bg-base);
+  color: var(--color-ivory);
+  overflow-x: hidden;
+}
+
+.font-serif,
+.font-editorial {
+  font-family: 'Cormorant Garamond', Georgia, serif;
+}
+
+.font-sans,
+.font-sans-ui {
+  font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+/* Custom subtle scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #09090b;
+}
+::-webkit-scrollbar-thumb {
+  background: #27272f;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #c8aa76;
+}
+
+/* Luxury accent text styles */
+.text-gold {
+  color: #c8aa76;
+}
+
+.border-gold-subtle {
+  border-color: rgba(200, 170, 118, 0.2);
+}
+
+.bg-gold-subtle {
+  background-color: rgba(200, 170, 118, 0.08);
+}
